@@ -1,0 +1,25 @@
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px;
+  padding: 10px 20px;
+  background-color: #ff008e;
+}
+.menu-items {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+  list-style: none;
+}
+.nav-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  transition: 0.3s ease-out;
+}
+.nav-link:hover {
+  color: #742851;
+  transform: scale(1.15);
+}
